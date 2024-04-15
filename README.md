@@ -1,1 +1,1 @@
-A free whatsapp bot to automate sending bulk messages on whatsapp
+A free chrome extension to automate sending bulk messages on whatsapp
