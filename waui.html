@@ -1,0 +1,62 @@
+<div style="height: 100%;">
+    <div style=" height: 100%;">
+        <div style="width: 100%;height:100%;max-width: 88%;max-height: 100%;margin-top: 5%;margin-left: 6%;/* margin-right: 6%; */">
+            <select id="select_broadcast_list" name="select_broadcast_list" style="width: 30%;margin-left: 20%;float:left;">
+                <option>Escolher uma lista</option>
+            </select>
+            <select id="select_message_template" name="select_message_template" style="margin-left:4%; width:25%">
+                <option>Escolha um template</option>
+            </select> <a style="float:right;" class="btn-settings" id="settings_button" target="_blank" href="#"></a>
+            <h2 style="color: black;margin-top: 6%;margin-bottom:1%;font-size:100%;" class="">
+                Digite os números de
+                telefone aqui (Ex: Marcos:+5511932260850, João:+5511957467668). Siga o modelo ao lado. É obrigatório ter
+                o +55 na frente dos números.
+            </h2> 
+            <span>Ação não permitida, cole a planilha.</span>
+            <button onclick="clearTable()" type="button" class="btn btn-default btn-file" style="float: right; padding:5px 10px; display:block;" id="cleartable">Apagar</button>
+            <textarea id="phonetosend" class="phonetosend" style="height: 24%;font-size: 16px;width: 98%;">Marcos Medina:+5511932260850</textarea>
+            <h2 style="color:black;margin-top:2%;margin-bottom:1%" class="">Digite sua mensagem aqui</h2>
+            <textarea id="messagetosend" class="messagetosend"
+                style="font-size: 16px;padding: 0.7%;/* max-height: 43%; */height: 22%;width: 98%;">
+                Hi {name}, how are you! I"m sharing my success secret, https://goo.gl/HLBSU. Ask me how at {phone_number}
+            </textarea>
+            <div class="container">
+                <form id="fileupload" action="#" method="POST" enctype="multipart/form-data" style="width: 100%;"> 
+                    <span class="btn btn-default btn-file" style="position: relative;margin-top: 17px;overflow: hidden;color: #1cb39b;background-color: white;display: inline-block;padding: 6px 12px;margin-bottom: 0;font-size: 14px;font-weight: 400;line-height: 1.42857143;text-align: center;white-space: nowrap;vertical-align: middle;cursor: pointer;-moz-user-select: none;-ms-user-select: none;user-select: none;box-sizing: border-box;border: 2px solid;border-radius: 4px;float: left;">
+                        Browse 
+                        <input type="file" name="files1" id="files1" multiple="" style=" position: absolute; top: 0; right: 0; min-width: 100%; min-height: 100%; font-size: 100px; text-align: right; filter: alpha(opacity=0); opacity: 0; outline: none; background: white; cursor: inherit; display: block; ">
+                    </span> 
+                    <span id="sendbutton" class="btn btn-default btn-file" style="position: relative;margin-top: 17px;overflow: hidden;color: #1cb39b;background-color: white;display: inline-block;padding: 6px 12px;margin-bottom: 0;font-size: 14px;font-weight: 400;line-height: 1.42857143;text-align: center;white-space: nowrap;vertical-align: middle;float: right;cursor: pointer;-moz-user-select: none;-ms-user-select: none;user-select: none;box-sizing: border-box;border: 2px solid;border-radius: 4px;/* margin-right: 0%; */">
+                        Enviar mensagem
+                    </span><br>
+                    <ul class="fileList" id="fileList"></ul>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal" style="width: 99%; height: 100%; background-color: rgba(0, 0, 0, 0.5) ; position: absolute; top: 0; display: none;">
+    <div style="background-color: seashell; width: 100%; max-width: 800px; margin: 05% auto;">
+        <div style="border-bottom: 1px solid rgba(0, 0, 0, 0.5); width: 100%; float: left; padding: 10px 0;" >
+            <div>
+                <span id="modalClose" style="float: right; margin-right: 2%;" >X</span>
+            </div>
+        </div>
+        <h2 style="text-align: center;">Faça um login</h2>
+        <div style="margin: 10px auto;">
+           <form action="" style="display: grid; max-width: 300px; margin: auto;"> 
+                <div style="display: inline-grid; width: 100%; max-width: 300px; margin: 10px auto;">
+                    <label style="text-align: center;" for="">E-mail:</label>
+                    <input type="email" name="" id="">
+                </div>
+                <div style="display: inline-grid; width: 100%; max-width: 300px; margin: 10px auto;">
+                    <label style="text-align: center;" for="">Senha:</label>
+                    <input type="password" name="" id="">
+                </div>
+                <div style="display: inline-grid; width: 100%; max-width: 300px; margin: 10px auto;">
+                    <button style="padding: 10px 30px; max-width: 200px; margin: 0 auto;" type="submit">Acessar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

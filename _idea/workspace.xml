@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4581223-4b93-4908-8d3c-4aab965e0823" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/complete-extension-v4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alertModal.html" beforeDir="false" afterPath="$PROJECT_DIR$/alertModal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/all_lists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_templates.html" beforeDir="false" afterPath="$PROJECT_DIR$/all_templates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/background.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/create_lists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_table_lists.js" beforeDir="false" afterPath="$PROJECT_DIR$/create_table_lists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/images.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/images.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon16.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon19.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon38.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon128.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icon128.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon48.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icon48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/no_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/no_image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/settings.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/settings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/abc.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/abc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/create_lists.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/create_lists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mt.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/mt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/show_all_lists.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/show_all_lists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/show_all_templates.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/show_all_templates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/third_party/pdf.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/third_party/pdf.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/third_party/pdf.worker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/third_party/pdf.worker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/third_party/pdfThumbnails.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/third_party/pdfThumbnails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mt.html" beforeDir="false" afterPath="$PROJECT_DIR$/mt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/options.html" beforeDir="false" afterPath="$PROJECT_DIR$/options.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/popup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pusher.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store_old.js" beforeDir="false" afterPath="$PROJECT_DIR$/store_old.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.xls" beforeDir="false" afterPath="$PROJECT_DIR$/template.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wa-custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/wa-custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/waui.html" beforeDir="false" afterPath="$PROJECT_DIR$/waui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/waui.js" beforeDir="false" afterPath="$PROJECT_DIR$/waui.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/create_lists.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/create_table_lists.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/js/mt.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/store.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/waui.js" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24sZVoE2C6Lcc3AZ1bkzucpqnJb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/joao/Documentos/extensão socialhub/complete-extension-v5&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;HTML&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4581223-4b93-4908-8d3c-4aab965e0823" name="Changes" comment="" />
+      <created>1644421283664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644421283664</updated>
+      <workItem from="1644421284895" duration="2807000" />
+      <workItem from="1645465545835" duration="593000" />
+      <workItem from="1645716913763" duration="182000" />
+      <workItem from="1645726929325" duration="2313000" />
+      <workItem from="1645793762130" duration="625000" />
+      <workItem from="1646679854510" duration="1458000" />
+      <workItem from="1654697759208" duration="1349000" />
+      <workItem from="1656090892023" duration="61000" />
+      <workItem from="1656093461267" duration="6049000" />
+      <workItem from="1656342520679" duration="11587000" />
+      <workItem from="1656449278384" duration="2949000" />
+      <workItem from="1656458093806" duration="197000" />
+      <workItem from="1656700254912" duration="4909000" />
+      <workItem from="1656941728792" duration="13165000" />
+      <workItem from="1657041490767" duration="60000" />
+      <workItem from="1657894717252" duration="4451000" />
+      <workItem from="1658155643126" duration="12520000" />
+      <workItem from="1658238777006" duration="8806000" />
+      <workItem from="1658276073723" duration="2228000" />
+      <workItem from="1658758093593" duration="14076000" />
+      <workItem from="1658843732814" duration="2352000" />
+      <workItem from="1658875112929" duration="713000" />
+      <workItem from="1658934585577" duration="12330000" />
+      <workItem from="1659019087924" duration="20586000" />
+      <workItem from="1659053247490" duration="339000" />
+      <workItem from="1659102474852" duration="11672000" />
+      <workItem from="1659142259728" duration="602000" />
+      <workItem from="1659373212975" duration="2714000" />
+      <workItem from="1659378280544" duration="110000" />
+      <workItem from="1659970260754" duration="1699000" />
+      <workItem from="1659998532244" duration="2000" />
+      <workItem from="1660143511385" duration="19441000" />
+      <workItem from="1660337401848" duration="1291000" />
+      <workItem from="1660833178882" duration="1857000" />
+      <workItem from="1660842424464" duration="9177000" />
+      <workItem from="1660919515122" duration="431000" />
+      <workItem from="1660919956839" duration="2696000" />
+      <workItem from="1661019591225" duration="604000" />
+      <workItem from="1661105059710" duration="13000" />
+      <workItem from="1661179282915" duration="1340000" />
+      <workItem from="1661196612294" duration="752000" />
+      <workItem from="1661274316003" duration="2251000" />
+      <workItem from="1661293996701" duration="599000" />
+      <workItem from="1661347349745" duration="2525000" />
+      <workItem from="1661373221062" duration="658000" />
+      <workItem from="1661376117211" duration="7933000" />
+      <workItem from="1661450281014" duration="1651000" />
+      <workItem from="1661525009709" duration="8010000" />
+      <workItem from="1661782869599" duration="3438000" />
+      <workItem from="1662400093066" duration="688000" />
+      <workItem from="1662492398524" duration="3082000" />
+      <workItem from="1662744307435" duration="829000" />
+      <workItem from="1662752570562" duration="462000" />
+      <workItem from="1662992413386" duration="804000" />
+      <workItem from="1663091749312" duration="991000" />
+      <workItem from="1663092888761" duration="428000" />
+      <workItem from="1663093330878" duration="1357000" />
+      <workItem from="1663168960467" duration="1483000" />
+      <workItem from="1663261757693" duration="999000" />
+      <workItem from="1663349025460" duration="1250000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

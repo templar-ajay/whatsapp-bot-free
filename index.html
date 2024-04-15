@@ -1,0 +1,196 @@
+<html><head>
+    <title>SocialHub - Crie campanhas inteligentes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- styles -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="js/utils.js"></script>
+    <script src="js/index.js"></script>
+
+
+</head>
+  <body>
+    <div class="header" style="padding: 1% 0 4% 0; text-align: center; height: 2%; background-color: #009688">
+       <div class="logo">
+             <h1><a href="index.html">SocialHub - Crie campanhas inteligentes</a></h1>
+          </div>
+  </div>
+
+    <div class="page-content">
+      <div class="row">
+      <div class="col-md-2">
+        <div class="sidebar content-box" style="display: block; height: 81%">
+                <ul class="nav">
+                    <!-- Main menu -->
+                    <li class="current"><a href="index.html"><i class="glyphicon glyphicon-home"></i> Configuracoes</a></li>
+                    <li><a href="create_lists.html"><i class="glyphicon glyphicon-calendar"></i> Criar Listas</a></li>
+                    <li><a href="all_lists.html"><i class="glyphicon glyphicon-list"></i> Minhas listas</a></li>
+                    <li><a href="mt.html"><i class="glyphicon glyphicon-list"></i> Criar Template</a></li>
+                    <li style="display:none"><a href="license.html"><i class="glyphicon glyphicon-list"></i> License Info</a></li>
+                    <li><a href="all_templates.html"><i class="glyphicon glyphicon-list"></i> Meus Templates</a></li>
+                    <li><a href="whatsappbot.html"><i class="glyphicon glyphicon-list"></i> whatsApp Bot Services</a></li>
+                    <!-- <li><a href="images.html"><i class="glyphicon glyphicon-list"></i> Images List</a></li> -->
+                </ul>
+             </div>
+      </div>
+      <div class="col-md-10">
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="content-box-large">
+              <div class="panel-heading">
+              <div class="panel-title">Configuracoes</div>
+              
+              
+            </div>
+              <div class="panel-body">
+                <div id="rootwizard">
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="tab1">
+                      <form class="form-horizontal" role="form">
+                      <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" checked="" id="do_load_contacts_on_startup">
+                <label class="form-check-label" for="do_load_contacts_on_startup">
+                  Carregar todos os meus contatos na inicializacao do aplicativo
+                </label>
+            </div>
+            <!-- <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="do_use_public_name">
+                <label class="form-check-label" for="do_use_public_name">
+                 Use o nome de exibicao publico do numero se eu nao fornecer o nome. Alguns perfis comerciais podem nao aparecer o nome, substituimos pelo telefone.
+                </label>
+            </div> -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="use_only_first_name">
+                <label class="form-check-label" for="do_use_public_name">Usar somente o primeiro nome. Se voce selecionar este campo, a mensagem: 'Oi {name}', aparecera como 'Oi Marcos', caso contrario ficara como 'Oi Marcos Medina'.</label>
+            </div>
+            
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" checked="" id="do_not_include_media_name">
+                <label class="form-check-label" for="do_not_include_media_name">
+                  Nao incluir o nome do arquivo que esta salvo no computador.
+                </label>
+            </div>
+
+            <div class="form-check">
+				      <input class="form-check-input" type="text" size="7" maxlength="6" id="use_default_country_code">
+				        <label class="form-check-label" for="use_default_country_code">Codigo de Pais padrao para todos os numeros (deixe em branco para usar o numero como esta. No Brasil o codigo e +55)</label>
+            </div>
+
+            <div class="form-check">
+            	<input class="form-check-input" type="number" min = "6" max = "10000" value = "" size="7" maxlength="3" id="use_message_delay">
+            	<label class="form-check-label" for="use_message_delay">Atraso em segundos entre cada mensagem. Recomendamos deixar em 15.</label>
+            </div>
+	
+</div>
+
+
+                      <div class="form-group">
+                        <br>
+<div style="
+    text-align: center;
+">
+              <button type="button" class="btn btn-success" style="font-size: 1.7rem;" id="save">Salvar</button>
+              <!-- <button type="button" class="btn btn-danger" id="delete">Delete</button> -->
+            </div>
+                      </div>
+                    </form>
+                    </div>
+                    <div class="tab-pane" id="tab2">
+                      <form class="form-inline" role="form">
+              
+                      <fieldset>
+                        <div class="form-group col-sm-3">
+                          <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+                        </div>
+                        <div class="form-group  col-sm-3">
+                          <label class="sr-only" for="exampleInputPassword2">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                        </div>
+                        <div class="checkbox col-sm-3">
+                          <label>
+                            <input type="checkbox" class="checkbox">
+                            <span>Remember me </span></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                          Sign in
+                        </button>
+                      </fieldset>
+                      
+                    </form>
+                    </div>
+                  <div class="tab-pane" id="tab3">
+                    <fieldset>
+                      <legend>Unstyled Checkbox</legend>
+                      <div class="form-group">
+                        <label class="col-md-2 control-label">Checkbox default</label>
+                        <div class="col-md-10">
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox">
+                              Checkbox 1 </label>
+                          </div>
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox">
+                              Checkbox 2 </label>
+                          </div>
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox">
+                              Checkbox 3 </label>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="form-group">
+                        <label class="col-md-2 control-label">Inline</label>
+                        <div class="col-md-10">
+                          <label class="checkbox-inline">
+                            <input type="checkbox">
+                            Checkbox 2 </label>
+                          <label class="checkbox-inline">
+                            <input type="checkbox">
+                            Checkbox 2 </label>
+                          <label class="checkbox-inline">
+                            <input type="checkbox">
+                            Checkbox 3 </label>
+                        </div>
+                      </div>
+                      
+                    </fieldset>
+                    </div>
+                  
+                </div>  
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--  Page content -->
+      </div>
+    </div>
+    </div>
+
+    <footer style="padding: 0px;">
+         <div class="container">
+         
+            <div class="copy text-center">
+               Copyright 2014 <a target="_blank" href="https://www.socialhub.pro/">Website</a>
+            </div>
+            
+         </div>
+      </footer>
+</body></html>

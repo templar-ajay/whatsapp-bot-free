@@ -1,0 +1,277 @@
+<html>
+   <head>
+      <title>SocialHub - Crie campanhas inteligentes</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Bootstrap -->
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- styles -->
+      <link href="css/styles.css" rel="stylesheet">
+      <link href="css/images.css" rel="stylesheet">
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="bootstrap/js/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+      <script src="js/images.js"></script>
+   </head>
+   <body>
+      <div class="header" style="padding: 1% 0 4% 0; text-align: center; height: 2%; background-color: #009688">
+         <div class="logo">
+            <h1><a href="index.html">SocialHub - Crie campanhas inteligentes</a></h1>
+         </div>
+      </div>
+      <div class="page-content">
+         <div class="row">
+            <div class="col-md-2">
+               <div class="sidebar content-box" style="display: block;/* margin-bottom: 201%; */height: 81%;">
+                  <ul class="nav">
+                     <!-- Main menu -->
+                     <li><a href="index.html"><i class="glyphicon glyphicon-home"></i> Configuracoes</a></li>
+                     <li><a href="create_lists.html"><i class="glyphicon glyphicon-calendar"></i> Criar Listas</a></li>
+                     <li><a href="all_lists.html"><i class="glyphicon glyphicon-list"></i> Minhas Listas</a></li>
+                     <li><a href="mt.html"><i class="glyphicon glyphicon-list"></i> Criar Template</a></li>
+                     <li style="display:none"><a href="license.html"><i class="glyphicon glyphicon-list"></i> License Info</a></li>
+                     <li><a href="all_templates.html"><i class="glyphicon glyphicon-list"></i> Meus Templates</a></li>
+                     <li class="current"><a href="images.html"><i class="glyphicon glyphicon-list"></i> Listas de Imagens</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-md-10">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="content-box-large">
+                        <div class="panel-heading">
+                           <div class="panel-title">All images</div>
+                        </div>
+                        <div class="panel-body">
+                           <article id="main-content" role="main">
+                              <section class="container">
+                                 <div class="row">
+                                    <div class="col-md-25">
+                                       <div class="row" style="align: center;padding-left: 19%;">
+                                          <div class="col-sm-7">
+                                             <span class="control-fileupload">
+                                             <label for="file1" class="text-left"></label>
+                                             <input type="file" id="file1">
+                                             </span>
+                                          </div>
+                                       </div>
+                                       <!--image file upoad sample-->
+                                       <div class="container-fluid" style="width: 100%;">
+                                          
+                                          <div class="row">
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_1_label">Image 1</label>
+                                                <img id="image_1" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_1" name="delete_1">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_2_label">Image 2</label>
+                                                <img id="image_2" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_2" name="delete_2">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_3_label">Image 3</label>
+                                                <img id="image_3" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_3" name="delete_3">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_4_label">Image 4</label>
+                                                <img id="image_4" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_4" name="delete_4">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                        </div>  
+
+                                          <div class="row">
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_5_label">Image 5</label>
+                                                <img id="image_5" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_5" name="delete_5">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_6_label">Image 6</label>
+                                                <img id="image_6" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_6" name="delete_6">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_7_label">Image 7</label>
+                                                <img id="image_7" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_7" name="delete_7">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_8_label">Image 8</label>
+                                                <img id="image_8" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_8" name="delete_8">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                        </div>
+
+                                        <div class="row">
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_9_label">Image 9</label>
+                                                <img id="image_9" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_9" name="delete_9">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_10_label">Image 10</label>
+                                                <img id="image_10" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_10" name="delete_10">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_11_label">Image 11</label>
+                                                <img id="image_11" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_11" name="delete_11">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_12_label">Image 12</label>
+                                                <img id="image_12" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_12" name="delete_12">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                        </div>
+
+                                        <div class="row">
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_13_label">Image 13</label>
+                                                <img id="image_13" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_13" name="delete_13">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_14_label">Image 14</label>
+                                                <img id="image_14" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_14" name="delete_14">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_15_label">Image 15</label>
+                                                <img id="image_15" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_15" name="delete_15">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_16_label">Image 16</label>
+                                                <img id="image_16" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_16" name="delete_16">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                        </div>
+
+                                        <div class="row">
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_17_label">Image 17</label>
+                                                <img id="image_17" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_17" name="delete_17">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_18_label">Image 18</label>
+                                                <img id="image_18" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_18" name="delete_18">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_19_label">Image 19</label>
+                                                <img id="image_19" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_19" name="delete_19">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_20_label">Image 20</label>
+                                                <img id="image_20" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_20" name="delete_20">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                        </div>
+
+
+                                    </div>
+                                 </div>
+                              </section>
+                           </article>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--  Page content -->
+            </div>
+         </div>
+      </div>
+      <footer style="padding: 0px;">
+         <div class="container">
+            <div class="copy text-center">
+               Copyright 2014 <a href="#">Website</a>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>

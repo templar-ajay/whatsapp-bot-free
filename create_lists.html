@@ -1,0 +1,179 @@
+<html><head>
+    <title>SocialHub - Crie campanhas inteligentes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- styles -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="js/utils.js"></script>
+<!--    <script src="js/create_lists.js"></script>-->
+
+  </head>
+  <body>
+    <div class="header" style="padding: 1% 0 4% 0; text-align: center; height: 2%; background-color: #009688">
+       <div class="logo">
+             <h1><a href="index.html">SocialHub - Crie campanhas inteligentes</a></h1>
+          </div>
+  </div>
+
+    <div class="page-content">
+      <div class="row">
+      <div class="col-md-2">
+        <div class="sidebar content-box" style="display: block;/* margin-bottom: 201%; */height: 81%;">
+                <ul class="nav">
+                    <!-- Main menu -->
+                    <li><a href="index.html"><i class="glyphicon glyphicon-home"></i> Configuracoes </a></li>
+                    <li class="current"><a href="create_lists.html"><i class="glyphicon glyphicon-calendar"></i> Criar Listas</a></li>
+                    <li><a href="all_lists.html"><i class="glyphicon glyphicon-list"></i> Minhas Listas</a></li>
+                    <li><a href="mt.html"><i class="glyphicon glyphicon-list"></i> Criar Template</a></li>
+                    <li style="display:none"><a href="license.html"><i class="glyphicon glyphicon-list"></i> License Info</a></li>
+                    <li><a href="all_templates.html"><i class="glyphicon glyphicon-list"></i> Meus Templates</a></li>
+                    <!-- <li><a href="images.html"><i class="glyphicon glyphicon-list"></i> Images List</a></li> -->
+                </ul>
+             </div>
+      </div>
+      <div class="col-md-10">
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="content-box-large">
+              <div class="panel-heading">
+              <div class="panel-title">Criar uma lista</div>
+              
+              
+            </div>
+              <div class="panel-body">
+                <div id="rootwizard">
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="tab1">
+                      <form class="form-horizontal" role="form">
+                      <div class="form-group">
+                        <label for="broadcast_group_name" class="col-sm-2 control-label">Nome da lista</label>
+                        <div class="col-sm-7">
+                          <input type="text" class="form-control" id="broadcast_group_name" placeholder="Escolha um nome para sua lista">
+                        </div>
+                      </div>
+                      
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label">Numeros de Whatsapp</label>
+                        <div class="col-sm-7">
+                          <div class="col-12 text-right">
+                            <span id="alertkeyup" style="padding: 10px 4px;background-color: red;display: none;float: left;border-radius: 10px;color: #ffff;margin-bottom: 8px;font-weight: 700;">Ação não permitida, cole a planilha.</span>
+                            <button id="clearButton" style="display: none; float: right;" class="btn-clear">LIMPAR</button>
+                          </div>
+                          <textarea class="form-control" maxlength="0" id='phone_numbers' rows="10" placeholder="Cole sua planilha nessa área utilzando CTRL + V."></textarea>
+                          <table class="tg" id="create_list_table" style="min-height: 218px; display: none;"></table>
+                        </div>
+                      </div>
+                      
+                      <div class="form-group">
+                        <br>
+
+                        <p style='text-align: center; font-style: italic;'> O formato dos numeros deve ser como Marcos Medina: +5511932260850 ou Se voce ja definiu o codigo do Pais padrao na pagina de configuracoes e deseja usa-lo, podera usar o formato Marcos Medina: 11932260850 sem + e o codigo do Pais.</p>
+<div style="
+    text-align: center;
+">
+              <button type="button" class="btn btn-success" style="font-size: 1.7rem;" id="save">Salvar</button>
+              <button type="button" class="btn btn-danger" style="font-size: 1.7rem;" id="delete">Deletar</button>
+            </div>
+                      </div>
+                    </form>
+                    </div>
+                    <div class="tab-pane" id="tab2">
+                      <form class="form-inline" role="form">
+              
+                      <fieldset>
+                        <div class="form-group col-sm-3">
+                          <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+                        </div>
+                        <div class="form-group  col-sm-3">
+                          <label class="sr-only" for="exampleInputPassword2">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                        </div>
+                        <div class="checkbox col-sm-3">
+                          <label>
+                            <input type="checkbox" class="checkbox">
+                            <span>Remember me </span></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                          Sign in
+                        </button>
+                      </fieldset>
+                      
+                    </form>
+                    </div>
+                  <div class="tab-pane" id="tab3">
+                    <fieldset>
+                      <legend>Unstyled Checkbox</legend>
+                      <div class="form-group">
+                        <label class="col-md-2 control-label">Checkbox default</label>
+                        <div class="col-md-10">
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox">
+                              Checkbox 1 </label>
+                          </div>
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox">
+                              Checkbox 2 </label>
+                          </div>
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox">
+                              Checkbox 3 </label>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="form-group">
+                        <label class="col-md-2 control-label">Inline</label>
+                        <div class="col-md-10">
+                          <label class="checkbox-inline">
+                            <input type="checkbox">
+                            Checkbox 2 </label>
+                          <label class="checkbox-inline">
+                            <input type="checkbox">
+                            Checkbox 2 </label>
+                          <label class="checkbox-inline">
+                            <input type="checkbox">
+                            Checkbox 3 </label>
+                        </div>
+                      </div>
+                      
+                    </fieldset>
+                    </div>
+                  
+                </div>  
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--  Page content -->
+      </div>
+    </div>
+    </div>
+<script src="create_table_lists.js"></script>
+    <footer style="padding: 0px;">
+         <div class="container">
+         
+            <div class="copy text-center">
+               Copyright 2014 <a href="#">Website</a>
+            </div>
+            
+         </div>
+      </footer>
+  
+</body></html>

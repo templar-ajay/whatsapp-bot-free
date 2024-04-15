@@ -1,0 +1,261 @@
+<html>
+   <head>
+      <title>SocialHub - Crie campanhas inteligentes</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Bootstrap -->
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- styles -->
+      <link href="css/styles.css" rel="stylesheet">
+      <link href="css/images.css" rel="stylesheet">
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="bootstrap/js/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+      <script src="js/mt.js"></script>
+      <script src="js/utils.js"></script>
+      <script src="js/third_party/pdf.min.js"></script>
+      <script src="js/third_party/pdf.worker.min.js"></script>
+      <script src="js/third_party/pdfThumbnails.js"></script>
+   </head>
+   <body>
+      <div class="header" style="padding: 1% 0 4% 0; text-align: center; height: 2%; background-color: #009688">
+         <div class="logo">
+            <h1><a href="index.html">SocialHub - Crie campanhas inteligentes</a></h1>
+         </div>
+      </div>
+      <div class="page-content">
+         <div class="row">
+            <div class="col-md-2">
+               <div class="sidebar content-box" style="display: block;/* margin-bottom: 201%; */height: 81%;">
+                  <ul class="nav">
+                     <!-- Main menu -->
+                     <li><a href="index.html"><i class="glyphicon glyphicon-home"></i> Configuracoes</a></li>
+                     <li><a href="create_lists.html"><i class="glyphicon glyphicon-calendar"></i> Criar Listas</a></li>
+                     <li><a href="all_lists.html"><i class="glyphicon glyphicon-list"></i> Minhas Listas</a></li>
+                     <li class="current"><a href="mt.html"><i class="glyphicon glyphicon-list"></i> Criar Template</a></li>
+                     <li style="display:none"><a href="license.html"><i class="glyphicon glyphicon-list"></i> License Info</a></li>
+                     <li><a href="all_templates.html"><i class="glyphicon glyphicon-list"></i> Meus Templates</a></li>
+                     <!-- <li><a href="images.html"><i class="glyphicon glyphicon-list"></i> Images List</a></li> -->
+                  </ul>
+               </div>
+            </div>
+            <div class="col-md-10">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="content-box-large">
+                        <div class="panel-heading">
+                           <div class="panel-title">Criar Template</div>
+                        </div>
+                        <div class="panel-body">
+                           <div id="rootwizard">
+                              <div class="tab-content">
+                                 <div class="tab-pane active" id="tab1">
+                                    <form class="form-horizontal" role="form">
+                                       <div class="form-group">
+                                          <label for="message_template_name" class="col-sm-2 control-label">Nome do Template</label>
+                                          <div class="col-sm-7">
+                                             <input type="text" class="form-control" id="message_template_name" value="my_template">
+                                          </div>
+                                       </div>
+                                       <div class="form-group">
+                                          <label class="col-sm-2 control-label" for="message_template">Texto do Template</label>
+                                          <div class="col-sm-7">
+                                             <textarea class="form-control" placeholder="Oi {name}, Aqui e o Marcos da SocialHub. Acesse nosso site www.socialhub.pro e confira todos os nossos produtos. 
+Segue o meu numero {phone_number}" rows="10" id="message_template"></textarea>
+                                          </div>
+                                       </div>
+                                       </br>
+                                       <div style="text-align: center;">
+                                          <label style="font-size: 16px;color: #333333;">Arquivos de Midia</label></div>
+                                       </br>
+<!-- IMAGES -->
+                                       <div class="form-group">
+                             <label class="col-sm-2 control-label" for="message_template"></label>             
+                                          
+                                            
+                                          <div class="col-sm-7">
+                                             <span class="control-fileupload">
+                                             <label for="file1" class="text-left"></label>
+                                             <input type="file" id="file1">
+                                             </span>
+                                          </div>
+                     <div class="container-fluid" style="width: 100%;padding-left: 6%;">
+                                          
+                                          <div class="row">
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_1_label">Media 1</label>
+                                                <img orignal_src='' data-id="" id="image_1" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px" width="220" height="145">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_1" name="delete_1">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_2_label">Media 2</label>
+                                                <img orignal_src='' data-id id="image_2" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px" width="220" height="145">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_2" name="delete_2">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_3_label">Media 3</label>
+                                                <img orignal_src='' data-id id="image_3" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px" width="220" height="145">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_3" name="delete_3">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_4_label">Media 4</label>
+                                                <img orignal_src='' data-id id="image_4" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px" width="220" height="145">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_4" name="delete_4">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                        </div>  
+
+                                          <div class="row">
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_5_label">Media 5</label>
+                                                <img orignal_src='' data-id id="image_5" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px" width="220" height="145">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_5" name="delete_5">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_6_label">Media 6</label>
+                                                <img orignal_src=''  id="image_6" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px" width="220" height="145">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_6" name="delete_6">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_7_label">Media 7</label>
+                                                <img orignal_src='' data-id id="image_7" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px" width="220" height="145">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_7" name="delete_7">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+
+                                             <div class="col-sm-3" style="margin-top: 35px;">
+                                                <label id="image_8_label">Media 8</label>
+                                                <img orignal_src='' data-id id="image_8" class="thumbnail margin-top-20" alt="No image" src="img/no_image.png" style="margin-bottom: 15px;margin-right: 0; margin-top:5px" width="220" height="145">
+                                                <div style="margin-left: 30%;">
+                                                   <button type="submit" style="background-color: lightcoral; border-color: white;" class="btn btn-primary btn-sm" id="delete_8" name="delete_8">
+                                                      <i class="icon-ok icon-white"></i> Delete</button>
+                                                </div>
+                                             </div>
+                                        </div>
+                                    </div>
+                                       </div>
+                                       
+                                       </br></br>
+
+                                       <div class="form-group">
+                                          <br>
+                                          <p style="font-size: 111%; font-style: italic; font-weight: bold; text-align: center;"> NOTA: Todos os arquivos de midia sao suportados. No entanto, as miniaturas serao exibidas para arquivos de IMAGEM e PDF por enquanto. Videos e outros arquivos serao enviados normalmente, apenas nao aparecerao as miniaturas.</p>
+                                          <p style="font-size: 111%; font-style: italic; font-weight: bold; text-align: center;"> Por favor, mantenha cada tamanho de arquivo abaixo de 5 MB </p>
+                                       </div>
+                                       
+                                       <div class="form-group">
+                                          <br>
+                                          <div style="
+                                             text-align: center;
+                                             ">
+                                             <button type="button" class="btn btn-success" style="font-size: 1.7rem;" id="save">Salvar</button>
+                                             <button type="button" class="btn btn-danger" style="font-size: 1.7rem;" id="delete">Deletar</button>
+                                          </div>
+                                       </div>
+                                    </form>
+                                 </div>
+                                 <div class="tab-pane" id="tab2">
+                                    <form class="form-inline" role="form">
+                                       <fieldset>
+                                          <div class="form-group col-sm-3">
+                                             <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                             <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+                                          </div>
+                                          <div class="form-group  col-sm-3">
+                                             <label class="sr-only" for="exampleInputPassword2">Password</label>
+                                             <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                                          </div>
+                                          <div class="checkbox col-sm-3">
+                                             <label>
+                                             <input type="checkbox" class="checkbox">
+                                             <span>Remember me </span></label>
+                                          </div>
+                                          <button type="submit" class="btn btn-primary">
+                                          Sign in
+                                          </button>
+                                       </fieldset>
+                                    </form>
+                                 </div>
+                                 <div class="tab-pane" id="tab3">
+                                    <fieldset>
+                                       <legend>Unstyled Checkbox</legend>
+                                       <div class="form-group">
+                                          <label class="col-md-2 control-label">Checkbox default</label>
+                                          <div class="col-md-10">
+                                             <div class="checkbox">
+                                                <label>
+                                                <input type="checkbox">
+                                                Checkbox 1 </label>
+                                             </div>
+                                             <div class="checkbox">
+                                                <label>
+                                                <input type="checkbox">
+                                                Checkbox 2 </label>
+                                             </div>
+                                             <div class="checkbox">
+                                                <label>
+                                                <input type="checkbox">
+                                                Checkbox 3 </label>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="form-group">
+                                          <label class="col-md-2 control-label">Inline</label>
+                                          <div class="col-md-10">
+                                             <label class="checkbox-inline">
+                                             <input type="checkbox">
+                                             Checkbox 2 </label>
+                                             <label class="checkbox-inline">
+                                             <input type="checkbox">
+                                             Checkbox 2 </label>
+                                             <label class="checkbox-inline">
+                                             <input type="checkbox">
+                                             Checkbox 3 </label>
+                                          </div>
+                                       </div>
+                                    </fieldset>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--  Page content -->
+            </div>
+         </div>
+      </div>
+      <footer style="padding: 0px;">
+         <div class="container">
+            <div class="copy text-center">
+               Copyright 2018 <a href="#">SocialHub - Crie campanhas inteligentes</a>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>
